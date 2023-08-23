@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #3b5998;
+  width: 100%;
+  height:90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+}
+.logo {
+  height: 90px;
+  position: absolute;
+  right: 1000px;
+  bottom: 14px;
+  z-index: 7;
+}
+.logo img {
+  width: 200px;
+  padding-bottom: 20px;
+}
+.form1 {
+  position: absolute;
+  right: 30%;
+  bottom: 29px;
+  color: rgb(255, 255, 255);
+  
+}
+.form1 p{
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.form2 p{
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.form2 {
+  position:absolute;
+  left: 71%;
+  bottom:14px;
+  color: rgb(255, 255, 255);
+ 
+}
+a {
+  text-decoration: none;
+  color: rgb(206, 205, 205);
+  font-size: 12px;
+  font-family:  sans-serif;
+}
+.form1 .form2 {
+  border-radius: 10px solid;
+}
+.form3 {
+  border: none;
+  border-radius: 20px solid blue ;
+  position: sticky;
+  right: 150px;
+  top: 5px;
+  bottom: 5px;
+  border-radius: 20px solid blue;
+  /* height: 25px; */
+ ;
+}
+input[type="submit"] {
+  background: #446abd;
+  color: white;
+  cursor: pointer;
+  height: 24px;
+  width: 50px;
+  border-radius: 50px solid rgb(75, 75, 233);
+  /* right: 150px;
+    bottom: 544px; */
+}
+
+.fb-body {
+  background-color: #dbdfec;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  width: 100%;
+  height: 645px;
+}
+#box1 {
+  position: absolute;
+  left: 178px;
+  top: 35px;
+  font-size: 23px;
+  font-weight: 30px;
+  color:#0e3b64;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#box2 {
+  position: absolute;
+  left: 780px;
+  top: 15%;
+  font-family: sans-serif;
+ }
+h1{
+   font-size: 40px;
+}
+.box2 p{
+  font-family: sans-serif;
+}
+#box3 {
+  position: absolute;
+  left: 100px;
+  top: 25%;
+}
+.box4{
+  position: absolute;
+  left: 780px;
+  top: 30%;
+  margin-top: 30px;
+}
+p{
+  font-size: 20px;
+  font-style: var(solid) ;
+
+}
+.input1{
+   width: 180px;
+   /* height: 30px; */
+   border: 2px solid lightblue;
+   margin: 5px;
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 20px;
+}
+.input2{
+  width: 400px;
+  /* height: 30px; */
+  border: 2px solid lightblue;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.birth{
+     font-size: large;
+     font-style: bold;
+     color: rgb(134, 131, 131);   
+}
+form>label{
+  display: inline-block;
+  font-size: 25px;
+  word-spacing: 15px;
+  position: relative;
+  bottom: 20%;
+}
+footer,.footer{
+  /* background-color: gray; */
+  color: rgb(128, 126, 126);
+  font-size: 16px;
+  height:250px;
+  width: 400px;
+  position: absolute;
+  /* bottom: 0px; */
+  top:60%;
+  left: 45%;
+}
+footer,.footer a{
+  color: #404c85;
+}
+button{
+  background-color: #5e994b;
+  border: none;
+  border-radius:100px solid rgb(28, 170, 28);
+  height:40px;
+  width: 190px;
+  position: absolute;
+  top: 87%;
+  left:54%;
+  cursor: pointer;
+}
+button a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family:  sans-serif;
+}
+
+
